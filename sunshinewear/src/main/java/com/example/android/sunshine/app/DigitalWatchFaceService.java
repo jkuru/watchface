@@ -468,7 +468,7 @@ public class DigitalWatchFaceService extends CanvasWatchFaceService {
                     canvas.drawText(min,
                             mXOffset + 100, mYOffset + 100, mDatePaint);
                     canvas.drawText(max,
-                            mXOffset + 140, mYOffset + 100, mDatePaint);
+                            mXOffset + 170, mYOffset + 100, mDatePaint);
                     Resources resources = DigitalWatchFaceService.this.getResources();
                     Log.e(TAG, "Jerry - artId -"+artId);
                     Drawable backgroundDrawable = resources.getDrawable(artId, null);
